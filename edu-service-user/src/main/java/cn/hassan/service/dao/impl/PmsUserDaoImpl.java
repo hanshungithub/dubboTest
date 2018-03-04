@@ -1,10 +1,9 @@
 package cn.hassan.service.dao.impl;
 
+import cn.hassan.service.common.core.dao.BaseDaoImpl;
+import cn.hassan.service.dao.PmsUserDao;
+import cn.hassan.user.entity.PmsUser;
 import org.springframework.stereotype.Repository;
-
-import wusc.edu.demo.common.core.dao.BaseDaoImpl;
-import wusc.edu.demo.user.dao.PmsUserDao;
-import wusc.edu.demo.user.entity.PmsUser;
 
 
 /**
@@ -20,7 +19,7 @@ public class PmsUserDaoImpl extends BaseDaoImpl<PmsUser> implements PmsUserDao {
 	/**
 	 * 根据用户登录名获取用户信息.
 	 * 
-	 * @param loginName
+	 * @param userNo
 	 *            .
 	 * @return user .
 	 */

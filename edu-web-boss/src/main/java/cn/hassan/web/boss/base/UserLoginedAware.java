@@ -1,7 +1,6 @@
 package cn.hassan.web.boss.base;
 
 import cn.hassan.user.entity.PmsUser;
-import wusc.edu.demo.user.entity.PmsUser;
 
 
 
