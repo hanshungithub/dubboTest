@@ -17,8 +17,7 @@ public interface PmsUserDao extends BaseDao<PmsUser> {
 	 * 根据用户登录名获取用户信息.
 	 * 
 	 * @param userNo
-	 *            .
-	 * @return user .
+	 * @return user
 	 */
 	PmsUser findByUserNo(String userNo);
 

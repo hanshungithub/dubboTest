@@ -1,8 +1,12 @@
 package dubbo.test;
 
+import cn.hassan.App;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+import org.junit.Test;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import java.net.URL;
 
 /**
  *
@@ -31,6 +35,12 @@ public class DubboProvider {
 				}
 			}
 		}
+	}
+
+	@Test
+	public void findMethod() {
+		URL urlOfClass = App.class.getClassLoader().getResource("org/slf4j/spi/LocationAwareLogger.class");
+		System.out.println(urlOfClass);
 	}
 
 }

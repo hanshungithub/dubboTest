@@ -41,7 +41,7 @@
 	</typeAliases>
 
 	<mappers>
-		<mapper resource="mybatis/mapper/PmsUser.Mapper.xml" />
+		<mapper resource="mybatis/mapper/PmsUserDao.xml" />
 	</mappers>
 
 </configuration>
